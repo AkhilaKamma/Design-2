@@ -7,7 +7,9 @@
 # Did this code successfully run on Leetcode : Yes
 # Any problem you faced while coding this : No
 
-# Approach: using two stacks to mimic the opeartions of a Queue.
+# Approach: Use two stacks to simulate queue behavior (FIFO).
+# Push to stack_in; for pop/peek, transfer to stack_out when it's empty to reverse order.
+
 
 
 class MyQueue(object):
